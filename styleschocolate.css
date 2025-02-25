@@ -222,7 +222,7 @@ hr {
     border: 2px solid rgb(235, 206, 185);
 }
 
-@media screen and (min-height: 340px) and (min-aspect-ratio: 7/4) {
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
 
     .container {
         flex-flow: row wrap;
